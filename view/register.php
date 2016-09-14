@@ -26,6 +26,11 @@
 							<input type="password" name="password" placeholder="Password">
 						</span>
 					</div>
+					<div class="form-input">
+						<span class="password">
+							<input type="password" name="password" placeholder="Repeat your password">
+						</span>
+					</div>
 
 					<div class="form-submit">
 						<input type="submit" value="Je m'inscris !">	
