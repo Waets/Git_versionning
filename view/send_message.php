@@ -1,4 +1,6 @@
- 
+ <!doctype <!DOCTYPE html>
+ <body>
+<?php include '_topbar.php'; ?>
  <p align="center"><strong>Contact</strong></p>
 <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
 <form action="envoi.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
@@ -32,3 +34,7 @@
 </tr>
 </form>
 </table>
+</body>
+<?php
+include '_footer.php';
+?>

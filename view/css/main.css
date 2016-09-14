@@ -412,3 +412,7 @@ p.account a {
 	font-family: monospace;
 	font-size: 10px; /* reduced font size */
 }
+
+.formulaire {
+background-color: #5BA5C0;
+}
