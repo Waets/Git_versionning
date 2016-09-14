@@ -12,6 +12,7 @@
 						<a href="logout.php" class="btn">Déconnexion</a>
 						<a href="edit_image.php" class="btn">Profil</a>
 						<a href="add_music.php" class="btn"><i class="fa fa-plus"></i> Ajouter une musique</a>
+						<a href="send_message.php" class="btn">message</a>
 					</div>
 				</div>
 			</div>
