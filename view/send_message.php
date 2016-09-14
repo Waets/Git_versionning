@@ -1,7 +1,46 @@
  <!doctype <!DOCTYPE html>
  <body>
 <?php include '_topbar.php'; ?>
- <p align="center"><strong>Contact</strong></p>
+
+
+
+
+
+
+<p align="center"><strong>Contact</strong></p>
+
+
+<form method="POST">
+					<div class="form-input">
+						<span class="username">
+							<p align="center"><input type="text" name="nom" placeholder="nom"></p>
+						</span>
+					</div>
+					<div class="form-input">
+						<span class="email">
+							<p align="center"><input type="text" name="email" placeholder="Email"></p>
+						</span>
+					</div>
+					<div class="form-input">
+						<span class="password">
+							<p align="center"><input type="text" name="message" placeholder="message" cols="50" rows="10"></textarea></td></p>
+						</span>
+						<p align="center"><input type="reset" name="Submit" value="Réinitialiser le formulaire"></p>
+</center></td>
+<td width="41%"><center>
+<input type="submit" name="Submit" value="Envoyer">
+</center></td>
+					</div>
+
+
+
+
+
+
+
+
+
+ <!--<p align="center"><strong>Contact</strong></p>
 <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
 <form action="envoi.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
 <tr> 
@@ -33,8 +72,8 @@
 </center></td>
 </tr>
 </form>
-</table>
-</body>
+</table>/*
+</body> -->
 <?php
 include '_footer.php';
 ?>
