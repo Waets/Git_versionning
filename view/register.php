@@ -28,7 +28,7 @@
 					</div>
 					<div class="form-input">
 						<span class="password">
-							<input type="password" name="password" placeholder="Repeat your password">
+							<input type="password" name="password2" placeholder="Repeat your password">
 						</span>
 					</div>
 
