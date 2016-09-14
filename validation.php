@@ -14,20 +14,41 @@ if(	isset($_POST['username']) && isset($_POST['email']) && isset($_POST['passwor
 		if($password == $password2)
 			{
 
-			$password = sha1($password);
-			userRegistration($db, $username, $email, $password);
+			$ouiEmail = isEmailAvailable($db, $email);
+			$ouiUsername = isUsernameAvailable($db, $username);	
 
-			header('Location: login.php');
-			}
- 
+				if($ouiEmail){
+
+
+					if ($ouiUsername) {
+					
+
+						$password = sha1($password);
+						userRegistration($db, $username, $email, $password);
+						header('Location: login.php');
+					}
+
+					else{
+
+						echo "Cet Username est déjà utilisé";
+					}
+
+				}
+
+				else{
+
+						echo "Cet Email est déjà utilisé";
+					}
+ 	}
 		else
 		{
 			echo 'Les deux mots de passe que vous avez rentrés ne correspondent pas…';
 		}
 
-}else{ 
-	$_SESSION['message'] = 'Erreur : Formulaire incomplet';
-	header('Location: register.php');
+		}else{ 
+			
+				$_SESSION['message'] = 'Erreur : Formulaire incomplet';
+				header('Location: register.php');
 }
 				
 

@@ -1,10 +1,11 @@
-<div class="row" style="background-color: black;margin:0">
+<?php session_start(); ?><div class="row" style="background-color: #333;margin:0">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<div id="topbar" class="clearfix">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 text-center">
-						<a href="index.php" class="logo"><img src="images/soundcloud-twitter-capital.jpg" width="100"></i></a>
+						<a href="index.php" class="logo"><i class="fa fa-soundcloud"></i></a>
+						<FONT color="white" >Bonjour <?php echo $username; ?> </FONT>
 					</div>
 					<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
 						<a href="https://twitter.com/soundcloud?lang=fr" class="btn"><img src="images/twitterlogo.png" width="25" height="25" alt="logo twitter" /></a>

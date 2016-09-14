@@ -12,19 +12,34 @@ require('model/functions.fn.php');
 ********************************/
 
 if(isset($_POST['email']) && isset($_POST['password'])){
+
+	$email = htmlspecialchars($_POST['email']);
+	$password = htmlspecialchars($_POST['password']);
+
 	if(!empty($_POST['email']) && !empty($_POST['password'])){
 
-		// TODO
 
-		// Force user connection to access dashboard
-		userConnection($db, 'git@initiation.com', 'password');
+		$connecter=userConnection($db, $email, sha1($password));
+
+			if ($connecter) {
+				header('Location: dashboard.php');
+			}
+
+			else{
+				$error = 'Mauvais identifiants !';
+			}
+
 		
-		header('Location: dashboard.php');
 
 	}else{
 		$error = 'Champs requis !';
 	}
 }
+	else{
+
+		$error = 'erreur 404';
+	}
+
 
 /******************************** 
 			VIEW 
