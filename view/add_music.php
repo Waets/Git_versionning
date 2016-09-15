@@ -19,17 +19,17 @@
 								?>
 								<form action="add_music.php" method="POST" enctype="multipart/form-data">
 									<div class="form-group">
-										<label for="title">Titre</label>
+										<label for="title">Title</label>
 										<input type="text" name="title" class="form-control">
 									</div>
 									<div class="form-group">
-										<label for="file">Musique</label>
+										<label for="file">Music</label>
 										<input type="file" name="music">
 										<p>
-											Extensions autorisées : .mp3, .ogg
+											Allowed extensions : .mp3, .ogg
 										</p>
 									</div>
-									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i>Envoyer</button></p>
+									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i>Submit</button></p>
 								</form>
 
 							</div>
