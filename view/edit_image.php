@@ -43,7 +43,7 @@
 									<br><?php 
  
    
-        echo 'Joined : '.$_SESSION['created_at'];
+        echo 'Joined : '.$_SESSION['created_at'].' <i class="fa fa-clock-o"></i>';
     ?> 
 									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i> Confirm</button></p>
 								</form>
