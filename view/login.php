@@ -8,7 +8,7 @@
 					<?php echo $error; ?>
 				</div>
 			<?php } ?>
-				<h1><i class="fa fa-soundcloud"></i> Connectez-vous !</h1>
+				<h1><i class="fa fa-soundcloud"></i> Login !</h1>
 				<form method="POST" action="login.php">
 					<div class="form-input">
 						<span class="email">
@@ -21,9 +21,9 @@
 						</span>
 					</div>
 					<div class="form-submit">
-						<input type="submit" value="Connecter">	
+						<input type="submit" value="Login">	
 					</div>
-					<p class="account">Vous n'avez pas de compte ? <a href="register.php">Inscrivez vous !</a></p>
+					<p class="account">You don't have an account <a href="register.php">Register there !</a></p>
 				</form>
 			</div>
 		</div>

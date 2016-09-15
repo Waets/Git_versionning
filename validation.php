@@ -30,24 +30,24 @@ if(	isset($_POST['username']) && isset($_POST['email']) && isset($_POST['passwor
 
 					else{
 
-						echo "Cet Username est déjà utilisé";
+						echo "This Username already exists.";
 					}
 
 				}
 
 				else{
 
-						echo "Cet Email est déjà utilisé";
+						echo "This Email already exists.";
 					}
  	}
 		else
 		{
-			echo 'Les deux mots de passe que vous avez rentrés ne correspondent pas…';
+			echo 'Your password and confirmation password do not match.';
 		}
 
 		}else{ 
 			
-				$_SESSION['message'] = 'Erreur : Formulaire incomplet';
+				$_SESSION['message'] = 'Error : Incomplete form';
 				header('Location: register.php');
 }
 				

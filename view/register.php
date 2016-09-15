@@ -33,9 +33,9 @@
 					</div>
 
 					<div class="form-submit">
-						<input type="submit" value="Je m'inscris !">	
+						<input type="submit" value="Register !">	
 					</div>
-					<p class="account">Vous avez un compte ? <a href="login.php">Connectez-vous !</a></p>
+					<p class="account">Already have an account <a href="login.php">Login there !</a></p>
 				</form>
 			</div>
 		</div>
