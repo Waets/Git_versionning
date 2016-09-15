@@ -1,4 +1,4 @@
-<div class="row" style="background-color: #333;margin:0">
+<div class="row" style="background-color: #000000;margin:0">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<div id="topbar" class="clearfix">
 			<div class="container">
@@ -16,7 +16,7 @@
 						<a href="add_music.php" class="btn"><i class="fa fa-plus"></i> Ajouter une musique</a>
 						<a href="send_message.php" class="btn">message</a>
 						<?php 
-  session_start();
+ 
    
         echo '<p class="abadi">'.'<FONT color="white">'.'Bonjour à toi, '.$_SESSION['username'].'</FONT>'.'</p>';
     ?> 
