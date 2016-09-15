@@ -18,7 +18,7 @@
 						<?php 
  
    
-        echo '<p class="abadi">'.'<FONT color="white">'.'Bonjour à toi, '.$_SESSION['username'].'</FONT>'.'</p>';
+        echo '<p class="abadi">'.'<FONT color="white">'.'Hello, '.$_SESSION['username'].'!'.'</FONT>'.'</p>';
     ?> 
 					</div>
 				</div>
