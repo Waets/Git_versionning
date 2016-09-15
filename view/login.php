@@ -23,7 +23,7 @@
 					<div class="form-submit">
 						<input type="submit" value="Login">	
 					</div>
-					<p class="account">You don't have an account <a href="register.php">Register there !</a></p>
+					<p class="account">You don't have an account ?<a href="register.php">Register there !</a></p>
 				</form>
 			</div>
 		</div>
