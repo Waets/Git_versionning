@@ -541,7 +541,7 @@ input:focus, textarea:focus {
 	  border-radius: 4px;
 	  float:right;
     border: 1px solid #253737;
-    background: #416b68;
+    background: #8DDCF4;
     background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
     background: -webkit-linear-gradient(top, #6da5a3, #416b68);
     background: -moz-linear-gradient(top, #6da5a3, #416b68);
@@ -576,7 +576,7 @@ input:focus, textarea:focus {
     margin-top:1px;
     text-shadow: #333333 0 -1px 0;
     border: 1px solid #253737;
-    background: #6da5a3;
+    background: #8DDCF4;
     background: -webkit-gradient(linear, left top, left bottom, from(#416b68), to(#416b68));
     background: -webkit-linear-gradient(top, #416b68, #609391);
     background: -moz-linear-gradient(top, #416b68, #6da5a3);
