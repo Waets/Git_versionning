@@ -3,7 +3,7 @@
 <?php include '_topbar.php'; ?>
 
 
-<p align="center"><strong>Contact</strong></p>
+<p align="center"><strong><font-size="30px">Contact</strong><font size="6"></font></p>
 
 
 <form action="mailto:joshua@tabetozor.com" method="post" name="contact">
