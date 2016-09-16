@@ -12,7 +12,7 @@
 						<a href="https://www.facebook.com/SoundCloud/" class="btn"><img src="images/fblogo.png" width="25" height="25" alt="logo facebook" /></a>
 						<a href="logout.php" class="btn">Logout</a>
 						<a href="edit_image.php" class="btn">Profile</a>
-						<a href="add_music.php" class="btn"><i class="fa fa-plus"></i> Add a music</a>
+						<a href="add_music.php" class="btn"><i class="fa fa-plus"></i> Add a Music</a>
 						<a href="send_message.php" class="btn">Contact us</a>
 						<?php 
  
