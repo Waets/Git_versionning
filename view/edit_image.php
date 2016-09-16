@@ -30,7 +30,7 @@
 								}
 								?>
 
-								<b class="username"><?php echo $_SESSION['username']; ?></b>
+								<b class="username"><?php echo $_SESSION['username'].' profile'; ?></b>
 								<p>
 									<br>
 									Allowed extensions : .jpg, .png et .gif
