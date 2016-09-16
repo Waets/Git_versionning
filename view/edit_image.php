@@ -8,7 +8,11 @@
 					<div class="block animated fadeInDown">
 						<div class="row">
 							<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+<<<<<<< HEAD
+								<div class="author">My Profile Picture :
+=======
 								<div class="author"><center><strong>My Profile Picture :</strong></center>
+>>>>>>> f05d0269cf1ed3de45bbef34074c8c9a5293b448
 									<?php
 									if(isset($_SESSION['image']) && !empty($_SESSION['image'])){
 										echo '<a href="edit_image.php"><img src="'.$_SESSION['image'].'" alt=""></a>';
