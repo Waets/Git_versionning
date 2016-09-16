@@ -45,7 +45,7 @@
    
         echo 'Joined : '.$_SESSION['created_at'].' <i class="fa fa-clock-o"></i>';
     ?> 
-									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i> Confirm</button></p>
+									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i>Confirm</button></p>
 								</form>
 
 							</div>
