@@ -17,8 +17,7 @@
 						<a href="send_message.php" class="btn">Contact us</a>
 						<?php 
  
-   
-        echo '<p class="abadi">'.'<FONT color="white">'.'Hello, '.$_SESSION['username'].'!'.'</FONT>'.'</p>';
+       echo '<p class="abadi">'.'<FONT color="white">'.'Hello, '.$_SESSION['username'].'!'.'</FONT>'.'</p>';
     ?> 
 					</div>
 				</div>
