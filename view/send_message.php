@@ -7,7 +7,15 @@
 
 
 <form action="mailto:joshua@tabetozor.com" method="post" name="contact">
-					<div class="form-input">
+					
+<form>
+		<input name="name" placeholder="What is your name?" class="name" required />
+		<input name="emailaddress" placeholder="What is your email?" class="email" type="email" required />
+    <textarea rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message" required></textarea>
+    <input name="submit" class="btn" type="submit" value="Send" />
+</form>
+
+					<!--<div class="form-input">
 						<span class="username">
 							<p align="center"><input type="text" name="nom" placeholder="nom" size="50"></p>
 						</span>
@@ -26,7 +34,7 @@
 <td width="41%"><center>
 <input type="submit" name="Submit" value="Envoyer">
 </center></td>
-					</div> 
+					</div> -->
 
 
 <?php
