@@ -3,13 +3,13 @@
 <?php include '_topbar.php'; ?>
 
 
-<br><p align="center"><strong>Contact us</strong></p><br>
+<p align="center"><strong>Contact</strong></p>
 
 
-<form method="POST">
+<form action="mailto:joshua@tabetozor.com" method="post" name="contact">
 					<div class="form-input">
 						<span class="username">
-							<p align="center"><input type="text" name="nom" placeholder="Name" size="50"></p>
+							<p align="center"><input type="text" name="nom" placeholder="nom" size="50"></p>
 						</span>
 					</div>
 					<div class="form-input">
@@ -19,12 +19,12 @@
 					</div>
 					<div class="form-input">
 						<span class="password">
-							<p align="center"><input type="text" name="message" placeholder="Message" cols="50" rows="10" size="50"></textarea></td></p>
+							<p align="center"><input type="text" name="message" placeholder="message" cols="50" rows="10" size="50"></textarea></td></p>
 						</span>
-						<p align="center"><input type="reset" name="Submit" value="Reinitiate the form"></p>
+						<p align="center"><input type="reset" name="Submit" value="Réinitialiser le formulaire"></p>
 </center></td>
 <td width="41%"><center>
-<input type="submit" name="Submit" value="Submit">
+<input type="submit" name="Submit" value="Envoyer">
 </center></td>
 					</div> 
 
