@@ -10,7 +10,7 @@
 					
 <form>
 		<input name="name" placeholder="What's your name?" class="name" required />
-		<input name="emailaddress" placeholder="What is your email?" class="email" type="email" required />
+		<input name="emailaddress" placeholder="What's your email?" class="email" type="email" required />
     <textarea rows="4" cols="60" name="subject" placeholder="Please enter your message" class="message" required></textarea>
     <input name="submit" class="btn" type="submit" value="Send" />
 </form>
