@@ -8,7 +8,7 @@
 						
 					</div>
 					<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
-
+						<a href="edit_image.php" class="btn">About Us</a>
 						<a href="https://twitter.com/soundcloud?lang=fr" class="btn"><img src="images/twitterlogo.png" width="25" height="25" alt="logo twitter" /></a>
 						<a href="https://www.facebook.com/SoundCloud/" class="btn"><img src="images/fblogo.png" width="25" height="25" alt="logo facebook" /></a>
 						<a href="logout.php" class="btn">Logout</a>
