@@ -6,7 +6,7 @@
 <p align="center"><strong>Contact</strong></p>
 
 
-<form action="mailto:joshua@tabetozor.com" method="post" name="contact">
+<form action="mailto:greenwaets@gmail.com" method="post" name="contact">
 					
 <form>
 		<input name="name" placeholder="What is your name?" class="name" required />
